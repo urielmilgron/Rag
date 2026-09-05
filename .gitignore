@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de configuración local
+.env
+
+# Base de datos vectorial
+chroma_db/
+
+# Ignorar el CONTENIDO de las carpetas de datos, pero mantener las carpetas en Git
+datos_entrada/*
+!datos_entrada/.gitkeep
+datos_procesados/*
+!datos_procesados/.gitkeep
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del sistema operativo (Opcional pero recomendado para Windows/Mac)
+Thumbs.db
+.DS_Store
