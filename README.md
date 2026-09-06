@@ -12,6 +12,8 @@ Es necesario instalar las dependencias de Python divididas según su función en
 
 ### 1. Formatter (Conversión de documentos)
 `pip install markitdown[all]`
+`pip install python-docx`
+`pip install pymupdf`
 
 ### 2. Indexer (Fragmentación y Vectorización)
 `pip install langchain langchain-ollama langchain-chroma chromadb`
